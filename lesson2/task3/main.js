@@ -1,3 +1,11 @@
-let myC = Number(prompt("Введите температуру"));
-let myF = 9 / 5 * myC + 32;
-alert(`Цельсий: ${myC}, Фаренгейт: ${myF}`);
+let a = Number(prompt("Введите первое число"));
+let b = Number(prompt("Введите второе число"));
+if (a > 0 && b > 0) {
+    console.log(a - b)
+}
+if (a < 0 && b < 0) {
+    console.log(a * b)
+}
+if ((a < 0 && b > 0) || (a > 0 && b < 0)) {
+    console.log(a + b)
+}
